@@ -1829,3 +1829,99 @@ System memory in use after: 263.8 MB.
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2220.
 Total: 3.819804 ms (FindLiveObjects: 0.400823 ms CreateObjectMapping: 0.300042 ms MarkObjects: 3.082997 ms  DeleteObjects: 0.033518 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.9 MB.
+System memory in use after: 264.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2222.
+Total: 2.287124 ms (FindLiveObjects: 0.233736 ms CreateObjectMapping: 0.066215 ms MarkObjects: 1.961951 ms  DeleteObjects: 0.023594 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6357.161159 seconds.
+  path: Assets/Audio/SFXBuzzingLight.wav
+  artifactKey: Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXBuzzingLight.wav using Guid(86e0f005f0b8e084698c2cf61bb6c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2da5092e41d94ebe57ffb655a95de2d') in 0.098661 seconds
+  Import took 0.101836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Audio/SFXHouseAmbience.wav
+  artifactKey: Guid(205287722f2b6b64583b86d65fdeeb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXHouseAmbience.wav using Guid(205287722f2b6b64583b86d65fdeeb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749708d78021d687719fb0e60fbac451') in 0.014952 seconds
+  Import took 0.019623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Audio/SFXWin.wav
+  artifactKey: Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXWin.wav using Guid(c0f716a9e9ac00c438b95158ba195a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03d294b392efe2df154889a2f9acc2b') in 0.009185 seconds
+  Import took 0.012504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Audio/SFXFootstepsLooping.wav
+  artifactKey: Guid(07e520bb410492d47bf739846d70f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXFootstepsLooping.wav using Guid(07e520bb410492d47bf739846d70f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7a43cfc3753c30e031b2d860357496') in 0.008739 seconds
+  Import took 0.011568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Audio/SFXGhostMove.wav
+  artifactKey: Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXGhostMove.wav using Guid(98ea14dfdb9dce74a976520f134fd1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524ed8239a56d485eb1335d1b449480f') in 0.061512 seconds
+  Import took 0.064938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Audio/SFXGameOver.wav
+  artifactKey: Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXGameOver.wav using Guid(2789d5ce62baaba4ab1ee8bb172304a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ea0d20efec27f78372c9ee2b391ba2') in 0.012444 seconds
+  Import took 0.015932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Audio/SFXCandle.wav
+  artifactKey: Guid(dd7f55e125ee8f947b2f399e20aeec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFXCandle.wav using Guid(dd7f55e125ee8f947b2f399e20aeec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae0579881d116469a81d748b6fe8cf2') in 0.014848 seconds
+  Import took 0.018276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.412226 seconds.
+  path: Assets/Scripts/Observer.cs
+  artifactKey: Guid(e42e717c9089045e3805f782454cba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Observer.cs using Guid(e42e717c9089045e3805f782454cba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb1ae6109869ec985e8d86c35e95b67') in 0.003641 seconds
+  Import took 0.007139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001642 seconds.
+  path: Assets/Scripts/Observer.cs
+  artifactKey: Guid(e42e717c9089045e3805f782454cba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Observer.cs using Guid(e42e717c9089045e3805f782454cba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb1ae6109869ec985e8d86c35e95b67') in 0.003791 seconds
+  Import took 0.007121 seconds .
+
