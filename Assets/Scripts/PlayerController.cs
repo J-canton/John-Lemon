@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private Quaternion rotation = Quaternion.identity;
     private Animator _animator;
     private Rigidbody _rigidbody;
-
+    private AudioSource _audioSource;
 
     [SerializeField]private float turnSpeed = 5f;
 
@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -32,7 +33,6 @@ public class PlayerController : MonoBehaviour
         movement.Set(horizontal, 0, vertical);
         movement.Normalize();
 
-
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
@@ -42,6 +42,17 @@ public class PlayerController : MonoBehaviour
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, movement, Time.fixedDeltaTime * turnSpeed,0f);
 
         rotation = Quaternion.LookRotation(desiredForward);
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+        }
+        else
+        {
+            _audioSource.Stop();
+        }
     }
 
     private void OnAnimatorMove()

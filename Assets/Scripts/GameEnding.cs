@@ -13,17 +13,19 @@ public class GameEnding : MonoBehaviour
     private float timer;
     private bool isPlayerExit;
     private bool isPlayerCaught;
+    public AudioSource exitAudio, caughtAudio;
+    private bool hasAudioPlayed;
 
 
     private void Update()
     {
         if (isPlayerExit)
         {
-            EndLevel(exitBackgroundCanvasGroup, false);
+            EndLevel(exitBackgroundCanvasGroup, false, exitAudio);
         }
         else if(isPlayerCaught)
         {
-            EndLevel(caughtBackgroundImageCanvasGroup, true);
+            EndLevel(caughtBackgroundImageCanvasGroup, true, caughtAudio);
         }
     }
 
@@ -35,8 +37,14 @@ public class GameEnding : MonoBehaviour
         }
     }
 
-    void EndLevel(CanvasGroup canvas, bool doRestart)
+    void EndLevel(CanvasGroup canvas, bool doRestart, AudioSource audioSource)
     {
+        if (!hasAudioPlayed)
+        {
+            audioSource.Play();
+            hasAudioPlayed = true;
+        }
+        
         timer += Time.deltaTime;
         canvas.alpha = Mathf.Clamp(timer / fadeDuration, 0, 1);
 
